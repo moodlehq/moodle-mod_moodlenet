@@ -15,21 +15,11 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Moodlenet module version information
+ * MoodleNet view page
  *
- * @package mod_moodlenet
- * @copyright  2020 Peter Dias
+ * @package    mod_moodlenet
+ * @copyright  2020 Mathew May
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die();
-
-$plugin->version   = 2020031302;       // The current module version (Date: YYYYMMDDXX).
-$plugin->requires  = 2019052006;       // Requires this Moodle version.
-$plugin->component = 'mod_moodlenet';  // Full name of the plugin (used for diagnostics).
-$plugin->maturity = MATURITY_STABLE;
-$plugin->release = '1.0 (Build: 2020031302)';
-$plugin->cron      = 0;
-$plugin->depenencies = [                // List any dependency for the plugin.
-    'tool_moodlenet' => ANY_VERSION
-];
+// This file is purposely left blank.

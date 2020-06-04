@@ -57,3 +57,17 @@ function moodlenet_get_shortcuts(stdClass $defaultitem) {
     $types[] = $type;
     return $types;
 }
+
+/**
+ * Pretend to add an instance.
+ */
+function moodlenet_add_instance() {
+    return;
+}
+
+/**
+ * Pretend to update an instance.
+ */
+function moodlenet_update_instance() {
+    return true;
+}
